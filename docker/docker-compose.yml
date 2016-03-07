@@ -1,0 +1,4 @@
+discovery:
+  image: mosh/discovery-service
+  ports:
+   - "8761:8761"

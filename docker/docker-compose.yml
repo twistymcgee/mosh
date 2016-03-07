@@ -2,3 +2,9 @@ discovery:
   image: mosh/discovery-service
   ports:
    - "8761:8761"
+configserver:
+  image: mosh/config-service
+  ports:
+   - "8888:8888"
+  links:
+   - discovery

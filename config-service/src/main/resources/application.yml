@@ -15,4 +15,4 @@ spring:
     config:
       server:
         git:
-          uri: SET_ME
+          uri: https://github.com/twistymcgee/mosh-config
